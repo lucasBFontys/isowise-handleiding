@@ -3,12 +3,6 @@
 import LoginStyleButton from '@/components/LoginStyleButton';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Poppins } from 'next/font/google';
-
-const poppins = Poppins({
-  weight: '400',
-  subsets: ['latin'],
-});
 
 export default function Home() {
   return (
