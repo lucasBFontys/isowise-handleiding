@@ -1,86 +1,74 @@
-# ISOwise - Interactive ISO Standards Learning Platform
+# ISOwise – Handleiding
 
-## Overview
-ISOwise is an interactive web application designed to help users learn and test their knowledge of ISO standards through engaging quizzes. The platform features a modern, user-friendly interface with real-time feedback, scoring system, and progress tracking. Built with Next.js and Tailwind CSS, it provides a seamless learning experience across all devices.
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=next.js\&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge\&logo=tailwind-css\&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge\&logo=pwa\&logoColor=white)
+![Cursor AI](https://img.shields.io/badge/Cursor_AI-FF6D00?style=for-the-badge\&logo=firefoxbrowser\&logoColor=white)
 
-## Key Features
-- **Interactive Quizzes**: Dynamic question presentation with immediate feedback
-- **Real-time Scoring**: Points system with multipliers for correct answer streaks
-- **Progress Tracking**: Monitor your learning journey and improvement
-- **Responsive Design**: Optimized for both desktop and mobile devices
-- **Modern UI/UX**: Clean, intuitive interface with smooth animations
-- **Accessibility**: Built with accessibility in mind, following WCAG guidelines
+Een visuele en interactieve handleiding voor de **ISOwise** app, ontwikkeld met **Next.js**, **Tailwind CSS** en **Framer Motion**.&#x20;
 
-## Technology Stack
-### Frontend
-- Next.js 14
-- TypeScript
-- Tailwind CSS
-- Framer Motion (for animations)
-- Google Fonts (Poppins, Press Start 2P)
+---
 
-### Development Tools
-- Visual Studio Code
-- Git & GitHub
-- Vercel (Deployment)
-- NPM
+## Over dit project
 
-## Installation
+De **ISOwise-gebruikershandleiding** is bedoeld om stakeholders en eindgebruikers een duidelijke indruk te geven van de werking van het ISOwise-app.
 
-### Prerequisites
-Ensure you have the following installed:
-- Node.js (LTS version)
-- npm
+## Technologieën
 
-### Steps
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/isowise.git
-cd isowise
+* **Next.js** – voor server-side rendering en routing
+* **Tailwind CSS** – voor snelle, responsieve styling
+* **Framer Motion** – voor animaties en overgangen
+* **TypeScript** – voor typeveiligheid en onderhoudbaarheid
+
+## Live demo
+
+Bekijk de gebruikershandleiding live op:
+[https://isowise-handleiding.vercel.app](https://isowise-handleiding.vercel.app)
+
+## Structuur
+
+```
+.
+├── pages/          # Pagina’s van de handleiding
+├── components/     # UI-componenten
+├── public/         # Afbeeldingen en assets
+├── styles/         # Tailwind-configuratie
+├── animations/     # Framer Motion configuraties
+└── ...
 ```
 
-2. Install dependencies
+## Installatie (voor lokale preview)
+
+1. Clone de repository:
+
+```bash
+git clone https://github.com/lucasBFontys/isowise-handleiding.git
+cd isowise-handleiding
+```
+
+2. Installeer dependencies:
+
 ```bash
 npm install
 ```
 
-3. Start the development server
+3. Start de ontwikkelserver:
+
 ```bash
 npm run dev
 ```
-Open your browser at http://localhost:3000
 
-## Configuration
-- Environment variables can be added in `.env.local` if needed
-- Next.js configuration can be modified in `next.config.mjs`
-- Tailwind configuration is in `tailwind.config.ts`
+4. Open in je browser:
+   [http://localhost:3000](http://localhost:3000)
 
-## Project Structure
-```
-src/
-├── app/              # Next.js app directory
-├── components/       # Reusable React components
-├── lib/             # Utility functions and helpers
-├── types/           # TypeScript type definitions
-└── styles/          # Global styles and Tailwind config
-```
+## Gebruik
 
-## Available Scripts
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start development server |
-| `npm run build` | Build for production |
-| `npm start` | Start production server |
-| `npm run lint` | Run ESLint |
-| `npm run type-check` | Run TypeScript type checking |
+* Navigeer door de interface zoals in de echte ISOwise app/figma prototype
 
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+## Licentie
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT-licentie – Vrij te gebruiken en aan te passen voor eigen doeleinden.
 
-## Acknowledgments
-- Next.js team for the amazing framework
-- Tailwind CSS for the utility-first CSS framework
-- All contributors who have helped shape this project
